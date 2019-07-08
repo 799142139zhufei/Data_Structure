@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77710695-4bed-4977-a759-a705e85d3003" name="Default Changelist" comment="持续优化算法。" />
+    <list default="true" id="77710695-4bed-4977-a759-a705e85d3003" name="Default Changelist" comment="持续优化算法。">
+      <change afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Mining/XGboost/Housing_price_forecast.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/XGboost/Housing_price_forecast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Mining/XGboost/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/XGboost/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Mining/XGboost/XGboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/XGboost/XGboost.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,34 +21,38 @@
     <SUITE FILE_PATH="coverage/data_structure$.coverage" NAME="文本相似度分析 Coverage Results" MODIFIED="1561947051093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_Mining/NLP" />
     <SUITE FILE_PATH="coverage/data_structure$Test__1_.coverage" NAME="Test (1) Coverage Results" MODIFIED="1561722946494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_Mining/NLP" />
     <SUITE FILE_PATH="coverage/data_structure$Test1.coverage" NAME="Test1 Coverage Results" MODIFIED="1561598554374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Mining/Actual_Combat" />
-    <SUITE FILE_PATH="coverage/data_structure$Test.coverage" NAME="Test Coverage Results" MODIFIED="1562316187484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Mining/XGboost" />
+    <SUITE FILE_PATH="coverage/data_structure$Test.coverage" NAME="Test Coverage Results" MODIFIED="1562582243686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Mining/XGboost" />
     <SUITE FILE_PATH="coverage/data_structure$Word2vec.coverage" NAME="Word2vec Coverage Results" MODIFIED="1562054077314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_Mining/NLP" />
     <SUITE FILE_PATH="coverage/data_structure$__1_.coverage" NAME="文本相似度分析 (1) Coverage Results" MODIFIED="1562210856215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_Mining/人大国资文本分析实例" />
-    <SUITE FILE_PATH="coverage/data_structure$Housing_price_forecast.coverage" NAME="Housing_price_forecast Coverage Results" MODIFIED="1562317008124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Mining/XGboost" />
+    <SUITE FILE_PATH="coverage/data_structure$creditcard.coverage" NAME="creditcard Coverage Results" MODIFIED="1562581534823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Mining/LogisticRegression" />
+    <SUITE FILE_PATH="coverage/data_structure$Housing_price_forecast.coverage" NAME="Housing_price_forecast Coverage Results" MODIFIED="1562582613082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Mining/XGboost" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="69536">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="8" />
+          <entry key="csv" value="9" />
           <entry key="ipynb" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="137" />
+          <entry key="py" value="144" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="19" />
           <entry key="xml" value="1" />
@@ -51,11 +62,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="8" />
+          <entry key="CSV" value="9" />
           <entry key="IPNB" value="1" />
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="137" />
+          <entry key="Python" value="144" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -64,7 +75,7 @@
         <counts>
           <entry key="Python Console" value="19" />
           <entry key="dummy" value="12" />
-          <entry key="py" value="5223" />
+          <entry key="py" value="5957" />
           <entry key="txt" value="85" />
           <entry key="工作报告3" value="6" />
           <entry key="工作报告4" value="6" />
@@ -73,21 +84,39 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="109" />
-          <entry key="Python" value="5242" />
+          <entry key="Python" value="5976" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/Housing_price_forecast.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            <state relative-caret-position="5290">
+              <caret line="247" column="40" selection-start-line="247" selection-start-column="40" selection-end-line="247" selection-end-column="40" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="128" column="52" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -143,6 +172,8 @@
         <option value="$PROJECT_DIR$/Text_Mining/人大国资文本分析实例/工作报告1.txt" />
         <option value="$PROJECT_DIR$/Text_Mining/人大国资文本分析实例/工作报告2.txt" />
         <option value="$PROJECT_DIR$/Text_Mining/人大国资文本分析实例/文本相似度分析.py" />
+        <option value="$PROJECT_DIR$/Data_Mining/XGboost/XGboost.py" />
+        <option value="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py" />
         <option value="$PROJECT_DIR$/Data_Mining/XGboost/Test.py" />
         <option value="$PROJECT_DIR$/Data_Mining/XGboost/Housing_price_forecast.py" />
       </list>
@@ -155,10 +186,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1043" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -184,7 +215,8 @@
             <path>
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Text_Mining" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Mining" type="462c0819:PsiDirectoryNode" />
+              <item name="XGboost" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,9 +234,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zf\data_structure\Data_Mining\LogisticRegression" />
       <recent name="D:\zf\data_structure\Data_Mining\XGboost" />
       <recent name="D:\zf\data_structure\Data_Mining\Decision_Tree" />
-      <recent name="D:\zf\data_structure\Data_Mining\LogisticRegression" />
       <recent name="D:\zf\data_structure\Text_Mining\NLP" />
       <recent name="D:\zf\data_structure\Text_Mining" />
     </key>
@@ -332,7 +364,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Word2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="creditcard" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,34 +372,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Text_Mining/NLP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Mining/LogisticRegression" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Text_Mining/NLP/Word2vec.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="文本相似度分析" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_structure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Text_Mining/NLP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Text_Mining/NLP/文本相似度分析.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -379,18 +389,18 @@
     <list>
       <item itemvalue="Python.文本相似度分析" />
       <item itemvalue="Python.文本相似度分析 (1)" />
-      <item itemvalue="Python.Word2vec" />
       <item itemvalue="Python.Tensorflow" />
       <item itemvalue="Python.Housing_price_forecast" />
       <item itemvalue="Python.Test" />
+      <item itemvalue="Python.creditcard" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Housing_price_forecast" />
         <item itemvalue="Python.Test" />
+        <item itemvalue="Python.creditcard" />
         <item itemvalue="Python.文本相似度分析 (1)" />
         <item itemvalue="Python.Tensorflow" />
-        <item itemvalue="Python.Word2vec" />
       </list>
     </recent_temporary>
   </component>
@@ -524,14 +534,14 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17461601" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18189168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" auto_hide="true" id="Concurrent Activities Diagram" order="2" type="SLIDING" weight="0.3291815" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32740214" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497979" weight="0.4395018" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49288255" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5569395" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -548,7 +558,7 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17461601" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17946646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" auto_hide="true" id="Concurrent Activities Diagram" order="2" type="SLIDING" weight="0.3291815" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -590,6 +600,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data_Mining/XGboost/Housing_price_forecast.py</url>
+          <line>237</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -606,42 +623,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python35/Lib/warnings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="41" column="39" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python35/Lib/site-packages/jieba/analyse/textrank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python35/Lib/site-packages/jieba/analyse/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Text_Mining/人大国资文本分析实例/整改报告.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Text_Mining/NLP/TextRank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Text_Mining/NLP/Word2vec.py" />
     <entry file="file://D:/Python35/Lib/site-packages/gensim/models/tfidfmodel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -784,9 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Mining/Decision_Tree/test.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
@@ -854,13 +832,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/房价预测.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="85" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/房价预测.ipynb" />
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/943167800/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -868,32 +840,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/Test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Text_Mining/人大国资文本分析实例/文本相似度分析.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-            <marker date="1562211020919" expanded="true" signature="192:193" ph="..." />
-            <marker date="1562211020919" expanded="true" signature="192:196" ph="..." />
-            <marker date="1562211020919" expanded="true" signature="192:198" ph="..." />
-            <marker date="1562211020919" expanded="true" signature="192:200" ph="..." />
-            <marker date="1562211020919" expanded="true" signature="1669:2953" ph="..." />
-            <marker date="1562211020919" expanded="true" signature="2946:2953" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/o2o.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/XGboost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://D:/Python35/Lib/warnings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/Housing_price_forecast.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        <state relative-caret-position="5290">
+          <caret line="247" column="40" selection-start-line="247" selection-start-column="40" selection-end-line="247" selection-end-column="40" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="128" column="52" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
         </state>
       </provider>
     </entry>

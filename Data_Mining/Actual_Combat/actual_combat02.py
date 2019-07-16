@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression,LogisticRegression
 
 # 逻辑回归模型--预测是否能被大学录取
 
-data = pd.read_csv('Text/admissions.csv')
+data = pd.read_csv('../Text/admissions.csv')
 #plt.scatter(data['gpa'],data['admit']) # 参数一是X轴；参数二是Y轴
 lir = LinearRegression()
 X = data.ix[:,1:]

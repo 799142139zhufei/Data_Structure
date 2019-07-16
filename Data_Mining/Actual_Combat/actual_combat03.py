@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 
 # 模型效果衡量标准
 
-data = pd.read_csv('Text/admissions.csv')
+data = pd.read_csv('../Text/admissions.csv')
 X = data.ix[:,1:].values
 Y = data['admit']
 lgr = LogisticRegression()

@@ -21,7 +21,7 @@ warnings.filterwarnings('ignore')
 columns = ['mpg', 'cylinders', 'displacement', 'horsepower', 'weight',
            'acceleration', 'year', 'car name','origin']
 
-data = pd.read_table('Text/auto-mpg.data',names=columns,delim_whitespace=True)
+data = pd.read_table('../Text/auto-mpg.data',names=columns,delim_whitespace=True)
 
 # 特征变换独热编码
 dummy_cylinders = pd.get_dummies(data['cylinders'],prefix='cly')

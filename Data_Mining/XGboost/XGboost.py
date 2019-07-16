@@ -78,5 +78,4 @@ for mean, param in zip(means, params):
     print("%f with: %r" % (mean, param))
 
 
-#cnd2018知识库
 

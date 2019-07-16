@@ -1,14 +1,16 @@
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import GradientBoostingClassifier
+import numpy as np
 
-algorithms = [[GradientBoostingClassifier(n_estimators=50, random_state=1, max_depth=3),
-               ['Pclass', 'Sex', 'Fare', 'Title']
-               ],
-              [LogisticRegression(random_state=1),
-               ['Pclass', 'Sex', 'Fare', 'Title']
-               ]
-              ]
 
-for a,b in algorithms:
-    print(a)
-    print(b)
+list = [[[0.91489379,0.08510621],
+         [0.05925871,0.94074129],
+         [0.55695506,0.44304494],
+         [0.04256139,0.95743861],
+         [0.87161466,0.12838534]],
+      [[0.90516043, 0.09483957],
+         [0.07921903, 0.92078097],
+         [0.45024748, 0.54975252],
+         [0.08327349, 0.91672651],
+         [0.90495504, 0.09504496]]]
+
+list1 = (np.array(list[0])+np.array(list[1]))/2
+print(list1)

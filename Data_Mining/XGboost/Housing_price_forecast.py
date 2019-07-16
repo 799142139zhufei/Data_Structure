@@ -14,7 +14,6 @@ import xgboost as xgb
 from sklearn.base import BaseEstimator, TransformerMixin, RegressorMixin, clone
 from sklearn.preprocessing import LabelEncoder, RobustScaler
 import datetime
-
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -235,15 +234,11 @@ class StackingAveragedModels(BaseEstimator,RegressorMixin,TransformerMixin):
     def fit(self, X, y):
         X = pd.DataFrame(X)
         Y = pd.DataFrame(y.values)
-        print(X)
-        print(Y)
         self.base_models_ = [list() for x in self.base_models] # [[],[],[]]
         kfold = KFold(n_splits=self.n_folds, shuffle=True, random_state=156) # 等比例拆分
         out_of_fold_predictions = np.zeros((X.shape[0], len(self.base_models))) # 不同模型对数据特征集预测的结果
         for index, model in enumerate(self.base_models):  # 遍历每个模型
             for train_index, holdout_index in kfold.split(X,Y):
-                print(train_index)
-                print(holdout_index)
                 instance = clone(model)
                 self.base_models_[index].append(instance)
                 instance.fit(X.iloc[train_index,:].values, Y.iloc[train_index,:]) # 拟合模型
@@ -277,12 +272,12 @@ if __name__ == '__main__':
    dm = Define_Model()
    X_train,Y_train = dm.Data_Cleaning()
 
-   # averaged_models = AveragingModels(models=(dm.ENet, dm.GBoost, dm.KRR, dm.model_xgb, dm.lasso))
-   # score = ComputerEngineer.rmsle_cv(averaged_models,X_train,Y_train)
-   # end1 = datetime.datetime.now() # 结束时间
-   # print('Averaged base models score: %s (%s),程序执行时长：%s秒'%(round(score.mean(),4),
-   #                                                                   round(score.std(),4),
-   #                                                                  (end1 - start).seconds))
+   averaged_models = AveragingModels(models=(dm.ENet, dm.GBoost, dm.KRR, dm.model_xgb, dm.lasso))
+   score = ComputerEngineer.rmsle_cv(averaged_models,X_train,Y_train)
+   end1 = datetime.datetime.now() # 结束时间
+   print('Averaged base models score: %s (%s),程序执行时长：%s秒'%(round(score.mean(),4),
+                                                                     round(score.std(),4),
+                                                                    (end1 - start).seconds))
 
    stacked_averaged_models = StackingAveragedModels(base_models=(dm.ENet,dm.GBoost,dm.model_xgb),meta_model=dm.lasso)
    score = ComputerEngineer.rmsle_cv(stacked_averaged_models,X_train,Y_train)

@@ -48,7 +48,7 @@ class RFC(object):
         data_train.ix[data_train['Embarked'] == 'C', 'Embarked'] = 1
         data_train.ix[data_train['Embarked'] == 'Q', 'Embarked'] = 2
 
-        '''
+
         ###########################测试集数据变换############################
         data_test = pd.read_csv(test_file)
         data_test['Age'] = data_test['Age'].fillna(data_test['Age'].median())  # 缺失值填充
@@ -60,7 +60,7 @@ class RFC(object):
         data_test.ix[data_test['Embarked'] == 'S', 'Embarked'] = 0
         data_test.ix[data_test['Embarked'] == 'C', 'Embarked'] = 1
         data_test.ix[data_test['Embarked'] == 'Q', 'Embarked'] = 2
-        '''
+
 
         # 选择特征标签
         predictors = ['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked']
@@ -123,12 +123,11 @@ class RFC(object):
         select.fit(data_train[predictorss].values,data_train['Survived'].values)
         # 计算出每个特征的权重值，特征分数的p值
         scores = -np.log10(select.pvalues_)
-        # 柱状图
+        # 通过图表展示其中权重比较大的几个特征：['Pclass', 'Sex', 'Fare', 'Title']
         plt.bar(range(len(predictorss)), scores)
         plt.xticks(range(len(predictorss)), predictorss, rotation='vertical')
         plt.show()
 
-        # 通过图表展示其中权重比较大的几个特征：['Pclass', 'Sex', 'Fare', 'Title']
         # 两个不同的模型进行集成
         algorithms = [[GradientBoostingClassifier(n_estimators=50, random_state=1, max_depth=3),
                        ['Pclass', 'Sex', 'Fare', 'Title']
@@ -149,8 +148,7 @@ class RFC(object):
                 # 模型拟合
                 alg.fit(data_train[predictors].ix[train], train_target)
                 # 预测模型 参数一预测为0的概率，参数二预测为1的概率
-                test_predictions = alg.predict_proba(
-                    data_train[predictors].ix[test].astype(float))
+                test_predictions = alg.predict_proba(data_train[predictors].ix[test].astype(float))
                 # 将多个不同模型计算出来的数值保存到list
                 full_test_predictions.append(test_predictions)
             test_predictions = (full_test_predictions[0] + full_test_predictions[1]) / 2  # 计算平均值

@@ -3,9 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="77710695-4bed-4977-a759-a705e85d3003" name="Default Changelist" comment="持续优化算法。">
       <change afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/Text/LoanStats3a.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/Text/Loan_2007.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/Text/NBA_DATA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/Text/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/Text/admissions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/Text/auto-mpg.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/Text/churn.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/Text/cleaned_loans2007.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/Text/cleaned_loans_2007.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/Text/filtered_loans_2007.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/Text/redcard.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/Text/贷款字段说明.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Mining/Decision_Tree/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Decision_Tree/Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Mining/Decision_Tree/Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Decision_Tree/Tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining/Decision_Tree/titanic_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Decision_Tree/train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Mining/LogisticRegression/工业蒸汽量预测.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/工业蒸汽量预测.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Mining/LogisticRegression/用户画像.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/用户画像.py" afterDir="false" />
@@ -20,11 +37,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/data_structure$Tree.coverage" NAME="Tree Coverage Results" MODIFIED="1563170064103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Mining/Decision_Tree" />
+    <SUITE FILE_PATH="coverage/data_structure$Tree.coverage" NAME="Tree Coverage Results" MODIFIED="1563243429326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Mining/Decision_Tree" />
     <SUITE FILE_PATH="coverage/data_structure$Tensorflow.coverage" NAME="Tensorflow Coverage Results" MODIFIED="1562147018536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_Mining/NLP" />
+    <SUITE FILE_PATH="coverage/data_structure$actual_combat05.coverage" NAME="actual_combat05 Coverage Results" MODIFIED="1563265163976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Mining/Actual_Combat" />
     <SUITE FILE_PATH="coverage/data_structure$TextRank.coverage" NAME="TextRank Coverage Results" MODIFIED="1561965027561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_Mining/NLP" />
     <SUITE FILE_PATH="coverage/data_structure$.coverage" NAME="文本相似度分析 Coverage Results" MODIFIED="1561947051093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_Mining/NLP" />
-    <SUITE FILE_PATH="coverage/data_structure$Test__1_.coverage" NAME="Test (1) Coverage Results" MODIFIED="1561722946494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_Mining/NLP" />
+    <SUITE FILE_PATH="coverage/data_structure$Test__1_.coverage" NAME="Test (1) Coverage Results" MODIFIED="1563186893745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Mining/Decision_Tree" />
     <SUITE FILE_PATH="coverage/data_structure$Test1.coverage" NAME="Test1 Coverage Results" MODIFIED="1561598554374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Mining/Actual_Combat" />
     <SUITE FILE_PATH="coverage/data_structure$Test.coverage" NAME="Test Coverage Results" MODIFIED="1562662344764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Mining/XGboost" />
     <SUITE FILE_PATH="coverage/data_structure$Word2vec.coverage" NAME="Word2vec Coverage Results" MODIFIED="1562054077314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Text_Mining/NLP" />
@@ -36,10 +54,10 @@
     <session id="69536">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.10" value="5" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
@@ -51,15 +69,15 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="10" />
+          <entry key="csv" value="12" />
           <entry key="ipynb" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="174" />
+          <entry key="py" value="194" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="19" />
           <entry key="xml" value="1" />
@@ -71,11 +89,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="11" />
+          <entry key="CSV" value="13" />
           <entry key="IPNB" value="1" />
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="174" />
+          <entry key="Python" value="194" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -84,16 +102,16 @@
         <counts>
           <entry key="Python Console" value="19" />
           <entry key="dummy" value="12" />
-          <entry key="py" value="6972" />
-          <entry key="txt" value="85" />
+          <entry key="py" value="7792" />
+          <entry key="txt" value="88" />
           <entry key="工作报告3" value="6" />
           <entry key="工作报告4" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="109" />
-          <entry key="Python" value="6991" />
+          <entry key="PLAIN_TEXT" value="112" />
+          <entry key="Python" value="7811" />
         </counts>
       </usages-collector>
     </session>
@@ -103,26 +121,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="185" selection-start-line="185" selection-end-line="185" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data_Mining/Decision_Tree/Tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+            <state relative-caret-position="121">
+              <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python35/Lib/site-packages/sklearn/ensemble/forest.py">
+        <entry file="file://$PROJECT_DIR$/Data_Mining/Decision_Tree/Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="993" column="33" selection-start-line="993" selection-start-column="33" selection-end-line="993" selection-end-column="33" />
+            <state relative-caret-position="-1052">
+              <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+              <folding>
+                <element signature="e#55#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/XGboost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat04.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-161">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -152,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Data_Mining/Decision_Tree/Test.py" />
         <option value="$PROJECT_DIR$/Data_Mining/Actual_Combat/Test1.py" />
         <option value="$PROJECT_DIR$/Data_Mining/Actual_Combat/Test2.py" />
         <option value="$PROJECT_DIR$/Data_Mining/Actual_Combat/Test.py" />
@@ -184,7 +213,13 @@
         <option value="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py" />
         <option value="$PROJECT_DIR$/Data_Mining/LogisticRegression/工业蒸汽量预测.py" />
         <option value="$PROJECT_DIR$/Data_Mining/LogisticRegression/用户画像.py" />
+        <option value="$PROJECT_DIR$/Data_Mining/Decision_Tree/Test.py" />
         <option value="$PROJECT_DIR$/Data_Mining/Decision_Tree/Tree.py" />
+        <option value="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat05.py" />
+        <option value="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat01.py" />
+        <option value="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat02.py" />
+        <option value="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat03.py" />
+        <option value="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat04.py" />
       </list>
     </option>
   </component>
@@ -208,6 +243,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,25 +260,12 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
               <item name="Data_Mining" type="462c0819:PsiDirectoryNode" />
-              <item name="Decision_Tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Data_Mining" type="462c0819:PsiDirectoryNode" />
-              <item name="Time_Series" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Data_Mining" type="462c0819:PsiDirectoryNode" />
-              <item name="Word2Vec" type="462c0819:PsiDirectoryNode" />
+              <item name="Actual_Combat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,11 +278,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zf\data_structure\Data_Mining" />
       <recent name="D:\zf\data_structure\Data_Mining\LogisticRegression" />
       <recent name="D:\zf\data_structure\Data_Mining\XGboost" />
       <recent name="D:\zf\data_structure\Data_Mining\Decision_Tree" />
       <recent name="D:\zf\data_structure\Text_Mining\NLP" />
-      <recent name="D:\zf\data_structure\Text_Mining" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,8 +297,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Tree">
-    <configuration name="文本相似度分析 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.actual_combat05">
+    <configuration name="Test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,34 +306,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Text_Mining/人大国资文本分析实例" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Mining/Decision_Tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Text_Mining/人大国资文本分析实例/文本相似度分析.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Housing_price_forecast" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_structure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Mining/XGboost" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Mining/XGboost/Housing_price_forecast.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Mining/Decision_Tree/Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,6 +364,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="actual_combat05" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Mining/Actual_Combat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat05.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="creditcard" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -386,19 +409,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.文本相似度分析 (1)" />
-      <item itemvalue="Python.Housing_price_forecast" />
       <item itemvalue="Python.Test" />
       <item itemvalue="Python.creditcard" />
       <item itemvalue="Python.Tree" />
+      <item itemvalue="Python.Test (1)" />
+      <item itemvalue="Python.actual_combat05" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.actual_combat05" />
         <item itemvalue="Python.Tree" />
+        <item itemvalue="Python.Test (1)" />
         <item itemvalue="Python.creditcard" />
         <item itemvalue="Python.Test" />
-        <item itemvalue="Python.Housing_price_forecast" />
-        <item itemvalue="Python.文本相似度分析 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -532,28 +555,35 @@
       <option name="project" value="LOCAL" />
       <updated>1562597719673</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="决策树优化算法。">
+      <created>1563179766767</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1563179766767</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21261115" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21584478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" auto_hide="true" id="Concurrent Activities Diagram" order="2" type="SLIDING" weight="0.3291815" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32740214" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497979" weight="0.455516" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5569395" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49717057" weight="0.37544483" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4644128" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502021" side_tool="true" weight="0.43872115" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50282943" side_tool="true" weight="0.455516" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4995958" weight="0.4252669" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3291815" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -563,27 +593,27 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1851253" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21584478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" auto_hide="true" id="Concurrent Activities Diagram" order="2" type="SLIDING" weight="0.3291815" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32740214" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497979" visible="true" weight="0.4395018" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5569395" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49717057" weight="0.37544483" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4644128" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502021" side_tool="true" weight="0.4395018" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50282943" side_tool="true" weight="0.455516" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4995958" weight="0.4252669" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3291815" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.39369443" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3177041" />
       <window_info anchor="right" id="Database" order="4" />
     </layout-to-restore>
   </component>
@@ -601,7 +631,8 @@
     <MESSAGE value="附件上传。" />
     <MESSAGE value="优化改算法。" />
     <MESSAGE value="持续优化算法。" />
-    <option name="LAST_COMMIT_MESSAGE" value="持续优化算法。" />
+    <MESSAGE value="决策树优化算法。" />
+    <option name="LAST_COMMIT_MESSAGE" value="决策树优化算法。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -621,73 +652,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Internet_Worm/Requests正则表达式爬取猫眼电影.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Internet_Worm/分析Ajax来抓取今日头条街拍美图.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Internet_Worm/国土土地交易公告生成PDF文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2039">
-          <caret line="89" column="18" lean-forward="true" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Internet_Worm/爬取猫眼电影数据入mysql数据库.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Internet_Worm/用代理抓取微信文章数据.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1794" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Text_Mining/NLP/Tensorflow.py" />
-    <entry file="file://$PROJECT_DIR$/Text_Mining/实际应用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="93" column="33" lean-forward="true" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Text_Mining/人大国资文本分析实例/工作报告2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Text_Mining/人大国资文本分析实例/工作报告1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/pima-indians-diabetes.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/Decision_Tree/test.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_oriented/继承、多态.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object_oriented/常用设计模式/工厂模式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1158" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Object_oriented/常用设计模式/抽象工厂模式.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -752,9 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/o2o.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.csv">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
@@ -762,13 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="310" selection-start-line="310" selection-end-line="310" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/XGboost.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
@@ -805,33 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat01.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/zhengqi_test">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -856,16 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="185" selection-start-line="185" selection-end-line="185" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -876,13 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
           <caret line="275" column="4" selection-start-line="275" selection-start-column="4" selection-end-line="275" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python35/Lib/warnings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="41" column="39" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -914,10 +824,160 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/sklearn/feature_selection/univariate_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1006">
+          <caret line="505" column="37" lean-forward="true" selection-start-line="505" selection-start-column="37" selection-end-line="505" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/sklearn/ensemble/gradient_boosting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="1713" column="39" lean-forward="true" selection-start-line="1713" selection-start-column="39" selection-end-line="1713" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Decision_Tree/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Text_Analysis/Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/o2o.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/Loan_Application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/User_Churn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/Football_match.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1158" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Text/churn.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Text/NBA_DATA.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="121" selection-start-line="3" selection-start-column="121" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/pyspider/database/base/taskdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/pyspark/sql/dataframe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="2006" column="8" selection-start-line="2006" selection-start-column="8" selection-end-line="2006" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/warnings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Mining/Decision_Tree/Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        <state relative-caret-position="-1052">
+          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+          <folding>
+            <element signature="e#55#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#55#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-492">
+          <caret line="161" column="35" lean-forward="true" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1563265244942" expanded="true" signature="365:518" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/XGboost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>

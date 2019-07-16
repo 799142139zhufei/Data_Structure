@@ -10,7 +10,7 @@ from sklearn.metrics import mean_absolute_error
 columns = ['mpg', 'cylinders', 'displacement', 'horsepower', 'weight',
            'acceleration', 'model year', 'origin', 'car name']
 
-data = pd.read_table('Text/auto-mpg.data',names=columns,delim_whitespace=True)
+data = pd.read_table('../Text/auto-mpg.data',names=columns,delim_whitespace=True)
 
 fig = plt.figure(figsize=(3,4))
 ax1 = fig.add_subplot(222)

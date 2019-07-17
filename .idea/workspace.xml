@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="77710695-4bed-4977-a759-a705e85d3003" name="Default Changelist" comment="持续优化算法。">
       <change afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Mining/SVM/data1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Mining/SVM/data2.mat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Data_Mining/Text/LoanStats3a.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Data_Mining/Text/Loan_2007.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Data_Mining/Text/NBA_DATA.csv" afterDir="false" />
@@ -17,11 +15,9 @@
       <change afterPath="$PROJECT_DIR$/Data_Mining/Text/filtered_loans_2007.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Data_Mining/Text/redcard.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Data_Mining/Text/贷款字段说明.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Mining/LogisticRegression/工业蒸汽量预测.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/工业蒸汽量预测.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Mining/LogisticRegression/用户画像.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/用户画像.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining/SVM/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/SVM/svm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,14 +92,14 @@
           <entry key="Python Console" value="19" />
           <entry key="dummy" value="12" />
           <entry key="py" value="7792" />
-          <entry key="txt" value="88" />
+          <entry key="txt" value="96" />
           <entry key="工作报告3" value="6" />
           <entry key="工作报告4" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="112" />
+          <entry key="PLAIN_TEXT" value="120" />
           <entry key="Python" value="7811" />
         </counts>
       </usages-collector>
@@ -114,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data_Mining/SVM/svm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="115">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -245,11 +241,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zf\data_structure\Data_Mining\SVM" />
       <recent name="D:\zf\data_structure\Data_Mining" />
       <recent name="D:\zf\data_structure\Data_Mining\LogisticRegression" />
       <recent name="D:\zf\data_structure\Data_Mining\XGboost" />
       <recent name="D:\zf\data_structure\Data_Mining\Decision_Tree" />
-      <recent name="D:\zf\data_structure\Text_Mining\NLP" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -536,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563268980225</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="SVM算法优化。">
+      <created>1563345268749</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1563345268749</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -606,7 +609,8 @@
     <MESSAGE value="优化改算法。" />
     <MESSAGE value="决策树优化算法。" />
     <MESSAGE value="持续优化算法。" />
-    <option name="LAST_COMMIT_MESSAGE" value="持续优化算法。" />
+    <MESSAGE value="SVM算法优化。" />
+    <option name="LAST_COMMIT_MESSAGE" value="SVM算法优化。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -939,8 +943,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Mining/SVM/svm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="115">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

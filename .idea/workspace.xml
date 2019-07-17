@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="77710695-4bed-4977-a759-a705e85d3003" name="Default Changelist" comment="持续优化算法。">
       <change afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/SVM/data1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Mining/SVM/data2.mat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Data_Mining/Text/LoanStats3a.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Data_Mining/Text/Loan_2007.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Data_Mining/Text/NBA_DATA.csv" afterDir="false" />
@@ -16,19 +18,10 @@
       <change afterPath="$PROJECT_DIR$/Data_Mining/Text/redcard.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Data_Mining/Text/贷款字段说明.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining/Decision_Tree/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Decision_Tree/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining/Decision_Tree/Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/Decision_Tree/Tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Mining/LogisticRegression/工业蒸汽量预测.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/工业蒸汽量预测.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Mining/LogisticRegression/用户画像.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/LogisticRegression/用户画像.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining/XGboost/Housing_price_forecast.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/XGboost/Housing_price_forecast.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining/XGboost/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/XGboost/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining/XGboost/XGboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/XGboost/XGboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Mining/SVM/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining/SVM/svm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +47,7 @@
     <session id="69536">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
@@ -68,16 +61,16 @@
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="12" />
           <entry key="ipynb" value="1" />
-          <entry key="png" value="1" />
-          <entry key="py" value="194" />
+          <entry key="png" value="2" />
+          <entry key="py" value="195" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="19" />
           <entry key="xml" value="1" />
@@ -91,9 +84,9 @@
         <counts>
           <entry key="CSV" value="13" />
           <entry key="IPNB" value="1" />
-          <entry key="Image" value="1" />
+          <entry key="Image" value="2" />
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="194" />
+          <entry key="Python" value="195" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -118,41 +111,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Mining/Decision_Tree/Tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1052">
-              <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
-              <folding>
-                <element signature="e#55#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/XGboost.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat04.py">
+        <entry file="file://$PROJECT_DIR$/Data_Mining/SVM/svm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-161">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="92">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -220,6 +186,7 @@
         <option value="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat02.py" />
         <option value="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat03.py" />
         <option value="$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat04.py" />
+        <option value="$PROJECT_DIR$/Data_Mining/SVM/svm.py" />
       </list>
     </option>
   </component>
@@ -260,7 +227,7 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
               <item name="Data_Mining" type="462c0819:PsiDirectoryNode" />
-              <item name="Actual_Combat" type="462c0819:PsiDirectoryNode" />
+              <item name="SVM" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,7 +238,7 @@
   <component name="PropertiesComponent">
     <property name="ToolWindowConcurrent Activities Diagram.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/软件下载/pyecharts-master" />
+    <property name="last_opened_file_path" value="D:/百度网盘下载/MachineLearning_Python-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -562,14 +529,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563179766767</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="持续优化算法。">
+      <created>1563268980223</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1563268980225</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21584478" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16653194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" auto_hide="true" id="Concurrent Activities Diagram" order="2" type="SLIDING" weight="0.3291815" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -630,9 +604,9 @@
     <MESSAGE value="修改版本" />
     <MESSAGE value="附件上传。" />
     <MESSAGE value="优化改算法。" />
-    <MESSAGE value="持续优化算法。" />
     <MESSAGE value="决策树优化算法。" />
-    <option name="LAST_COMMIT_MESSAGE" value="决策树优化算法。" />
+    <MESSAGE value="持续优化算法。" />
+    <option name="LAST_COMMIT_MESSAGE" value="持续优化算法。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -652,20 +626,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Object_oriented/常用设计模式/抽象工厂模式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="99" column="24" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/test.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python35/Lib/site-packages/sklearn/model_selection/_split.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -859,13 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Mining/Text_Analysis/Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1604" />
@@ -922,23 +875,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Mining/Decision_Tree/Tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1052">
-          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
-          <folding>
-            <element signature="e#55#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="e#55#74#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -946,10 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-492">
           <caret line="161" column="35" lean-forward="true" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1563265244942" expanded="true" signature="365:518" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,17 +903,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/LogisticRegression/creditcard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3680">
+          <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/Decision_Tree/Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+          <folding>
+            <element signature="e#55#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Mining/XGboost/XGboost.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
+        <state relative-caret-position="466">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Mining/Actual_Combat/actual_combat04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="115">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/SVM/思维导图.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Mining/SVM/svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

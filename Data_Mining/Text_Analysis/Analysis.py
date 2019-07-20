@@ -18,12 +18,15 @@ class TF_IDF(object):
         data = pd.read_table(cut_file_name,names=['category','theme','URL','content'],encoding='utf-8')
         content = data['content'].values.tolist()
         content_S = []
-        for line in content: # 对每条记录集进行循环遍历分词
-           semp  = jieba.lcut(line) # 其中cut返回的是一个可迭代的对象,lcut返回的是一个列表
-           if len(semp) > 1 and semp != '\r\n': # 换行符
+        # 对每条记录集进行循环遍历分词
+        for line in content:
+            # 其中cut返回的是一个可迭代的对象,lcut返回的是一个列表
+           semp  = jieba.lcut(line)
+           # 去掉一些杂乱数据
+           if len(semp) > 1 and semp != '\r\n':
               content_S.append(semp)
+        # 将数据做成DataFrame类型
         df_content = pd.DataFrame({'content_S':content_S})
-
         # 建立停用词---对于那些出现频繁但是对文本分析没有任何用处的词语进行删除
         stop_word = pd.read_csv(stop_file_name,
                                 index_col=False,
@@ -31,8 +34,9 @@ class TF_IDF(object):
                                 quoting=3,
                                 names=['stopword'],
                                 encoding='utf-8')
-        contents = df_content['content_S'].values.tolist()  # 将数据转成字符串形式
-        stopwords = stop_word['stopword'].values.tolist()  # 将数据转成字符串形式
+        # 将数据转成字符串形式
+        contents = df_content['content_S'].values.tolist()
+        stopwords = stop_word['stopword'].values.tolist()
         contents_clean = self.drop_stopwords(contents, stopwords)
         # 建立新的词库
         df_train = pd.DataFrame({'contents_clean': contents_clean, 'label': data['category']})
@@ -61,15 +65,17 @@ class TF_IDF(object):
         基于停用词库清洗原先已分词好的df_content库，建立新的词库
         :param contents: 待处理分词后的词
         :param stopwords: 停用词
-        :return:
+        :return:清洗后的文本
         '''
         contents_clean = []
         for line in contents:
             line_clean = []
             for word in line:
-                if word in stopwords: # 如果word是停用词则跳出当前循环
+                # 如果word是停用词则跳出当前循环
+                if word in stopwords:
                     continue
-                line_clean.append(word) # 将不是停用词的词语加入列表中
+                # 将不是停用词的词语加入列表中
+                line_clean.append(word)
             contents_clean.append(line_clean)
         return contents_clean
 
@@ -82,7 +88,7 @@ class TF_IDF(object):
         :param x_test: 测试标签数据集
         :param y_train: 训练标注数据集
         :param y_test: 测试标注数据
-        :return:
+        :return:结果预测
         '''
         # 基于CountVectorizer贝叶斯模型进行模拟训练
         vec = CountVectorizer(analyzer='word',max_features=4000,lowercase = False)

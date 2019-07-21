@@ -1,13 +1,16 @@
 import pandas as pd
 import jieba
 from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.feature_extraction.text import TfidfVectorizer
+import  warnings
+warnings.filterwarnings('ignore')
 
 
 class TF_IDF(object):
-
+    '''
+    适用业务场景：可以根据一段文字内容的描述，判断出属于什么类型的新闻；这是有监督学习的模型算法。
+    '''
     def Data_Cleaning(self,cut_file_name,stop_file_name):
         '''
         对文件进行分词处理
@@ -41,13 +44,14 @@ class TF_IDF(object):
         # 建立新的词库
         df_train = pd.DataFrame({'contents_clean': contents_clean, 'label': data['category']})
         label_mapping = {"汽车": 1, "财经": 2, "科技": 3, "健康": 4,
-                         "体育": 5, "教育": 6, "文化": 7, "军事": 8, "娱乐": 9, "时尚": 0}
+                         "体育": 5, "教育": 6, "文化": 7, "军事": 8,
+                         "娱乐": 9, "时尚": 0}
 
         df_train['label'] = df_train['label'].map(label_mapping)
 
         x_train, x_test, y_train, y_test = train_test_split(df_train['contents_clean'].values,
                                                             df_train['label'].values,
-                                                            0.3,
+                                                            test_size = 0.3,
                                                             random_state=1)
         # 对训练集数据进行格式变换
         words = []
@@ -58,14 +62,14 @@ class TF_IDF(object):
             except:
                 print(line, x_train['line'])
 
-        return  words,x_train, y_train, x_test, y_test
+        return  words,x_test, y_train, y_test
 
     def drop_stopwords(self,contents, stopwords):
         '''
         基于停用词库清洗原先已分词好的df_content库，建立新的词库
         :param contents: 待处理分词后的词
         :param stopwords: 停用词
-        :return:清洗后的文本
+        :return:清洗后的文本[[],[],[]]
         '''
         contents_clean = []
         for line in contents:
@@ -90,31 +94,28 @@ class TF_IDF(object):
         :param y_test: 测试标注数据
         :return:结果预测
         '''
-        # 基于CountVectorizer贝叶斯模型进行模拟训练
-        vec = CountVectorizer(analyzer='word',max_features=4000,lowercase = False)
-        vec.fit(words)
-        classifier = MultinomialNB()
-        classifier.fit(vec.transform(words),y_train)
-
-        # 对训练集数据进行格式变换
+        # 对测试训练集数据进行格式变换
         test_words = []
         for line in range(len(x_test)):
             try:
                 word = ' '.join(x_test[line])
-                words.append(word)
+                test_words.append(word)
             except:
-                print(line,x_test['line'])
+                print(line, x_test['line'])
 
-        vec_score = classifier.score(vec.fit(test_words),y_test)
-        print(vec_score)
+        # 基于CountVectorizer贝叶斯模型进行模拟训练
+        vec = CountVectorizer(analyzer='word',max_features=4000,lowercase = False)
+        classifier = MultinomialNB()
+        classifier.fit(vec.fit_transform(words),y_train)
+        vec_score = classifier.score(vec.fit_transform(test_words),y_test)
+        print(round(vec_score)) #返回给定测试数据和标签的平均精度
 
         # 基于TF-IDF贝叶斯进行模拟训练
-        vectorizer = TfidfVectorizer(analyzer='word', max_features=4000,  lowercase = False)
-        vectorizer.fit(words)
+        vectorizer = TfidfVectorizer(analyzer='word',max_features=4000,lowercase = False)
         classifier_1 = MultinomialNB()
-        classifier_1.fit(vectorizer.transform(words), y_train)
-        tf_idf_score = classifier_1.score(vectorizer.transform(test_words),y_test)
-        print(tf_idf_score)
+        classifier_1.fit(vectorizer.fit_transform(words), y_train)
+        tf_idf_score = classifier_1.score(vectorizer.fit_transform(test_words),y_test)
+        print(round(tf_idf_score)) # 返回给定测试数据和标签的平均精度
 
 
 if __name__ == '__main__':
@@ -122,5 +123,5 @@ if __name__ == '__main__':
     cut_file_name = 'val.txt'
     stop_file_name = 'stopwords.txt'
     TI = TF_IDF()
-    words, x_train, y_train, x_test, y_test = TI.Data_Cleaning(cut_file_name,stop_file_name)
-    TI.model_predict(words,y_train, x_test, y_test)
+    words,x_test, y_train, y_test = TI.Data_Cleaning(cut_file_name,stop_file_name)
+    TI.model_predict(words,x_test,y_train, y_test)

@@ -6,7 +6,9 @@ warnings.filterwarnings('ignore')
 
 word2vec.Word2Vec()
 class Text_Mining(object):
-
+      '''
+      适用业务场景：存在多个文档时找出某一个文档与其他几个文档那个最匹配相识度最高，这是无监督学习的模型算法。
+      '''
       def __init__(self):
           '''
           :param stopwordpath: 停用词路径（自己维护）
